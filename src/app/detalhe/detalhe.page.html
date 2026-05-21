@@ -1,0 +1,64 @@
+<ion-content fullscreen>
+
+  <div class="container-detalhe">
+
+    @if(alien){
+
+      <div
+        class="card-detalhe"
+        [style.border-color]="alien.corPrimaria"
+        [style.box-shadow]="'0 0 30px ' + alien.corPrimaria">
+
+        <button class="botao-voltar" (click)="voltar()">
+          ← Voltar
+        </button>
+
+        <div class="cabecalho">
+
+          
+
+          <div>
+            <h1>{{ alien.nome | uppercase }}</h1>
+            <h2>{{ alien.categoria | categoriaIcone }}</h2>
+            <p><strong>Planeta:</strong> {{ alien.planeta }}</p>
+            <p><strong>Espécie:</strong> {{ alien.especie }}</p>
+          </div>
+
+        </div>
+
+        <div class="foto-alien">
+          <img
+            [src]="alien.fotoRealUrl"
+            [alt]="alien.nome"
+            class="imagem-real">
+        </div>
+
+        <p class="descricao">{{ alien.descricao }}</p>
+
+        <div class="habilidades">
+          @for(habilidade of alien.habilidades; track habilidade){
+            <div destacarHabilidade>{{ habilidade }}</div>
+          }
+        </div>
+
+        <div class="secao">
+          <h3>História da Raça</h3>
+          <p>{{ alien.historiaRaca }}</p>
+        </div>
+
+        <div class="secao">
+          <h3>Curiosidades</h3>
+          <ul class="curiosidades">
+            @for(curiosidade of alien.curiosidades; track curiosidade){
+              <li>{{ curiosidade }}</li>
+            }
+          </ul>
+        </div>
+
+      </div>
+
+    }
+
+  </div>
+
+</ion-content>

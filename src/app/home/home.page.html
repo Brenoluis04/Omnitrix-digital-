@@ -1,20 +1,128 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content fullscreen>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+ <div class="seta-voltar" (click)="voltarMenu()">
+  ‹
+ </div>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div
+    class="container-principal"
+    [class.centralizado]="!omnitrixAtivado">
+
+    @if(omnitrixAtivado && alienSelecionado){
+
+      <div
+        class="painel-informacoes"
+        [style.border-color]="alienSelecionado.corPrimaria"
+        [style.box-shadow]="'0 0 25px ' + alienSelecionado.corPrimaria">
+
+        <h1>
+          {{ alienSelecionado.nome | uppercase }}
+        </h1>
+
+        <h2>
+          {{ alienSelecionado.categoria | categoriaIcone }}
+        </h2>
+
+        <div class="foto-alien">
+          <img
+            [src]="alienSelecionado.fotoRealUrl"
+            [alt]="alienSelecionado.nome"
+            class="imagem-real">
+        </div>
+
+        <div class="info-basica">
+          <p><strong>Planeta:</strong> {{ alienSelecionado.planeta }}</p>
+          <p><strong>Espécie:</strong> {{ alienSelecionado.especie }}</p>
+        </div>
+
+        <p class="descricao">
+          {{ alienSelecionado.descricao }}
+        </p>
+
+        <div class="habilidades">
+          @for(habilidade of alienSelecionado.habilidades; track habilidade){
+            <div destacarHabilidade>{{ habilidade }}</div>
+          }
+        </div>
+
+        <div class="secao">
+          <h3>História da Raça</h3>
+          <p>{{ alienSelecionado.historiaRaca }}</p>
+        </div>
+
+        <div class="secao">
+          <h3>Curiosidades</h3>
+          <ul class="curiosidades">
+            @for(curiosidade of alienSelecionado.curiosidades; track curiosidade){
+              <li>{{ curiosidade }}</li>
+            }
+          </ul>
+        </div>
+
+        <div class="secao">
+          <button class="botao-detalhe" (click)="verDetalhe()">
+            Ver Ficha Completa
+          </button>
+        </div>
+
+      </div>
+
+    }
+
+    <div class="area-omnitrix">
+
+      <div class="omnitrix">
+
+        <div class="pulseira superior-esquerda"></div>
+        <div class="pulseira superior-direita"></div>
+        <div class="pulseira inferior-esquerda"></div>
+        <div class="pulseira inferior-direita"></div>
+
+        <div
+          class="visor-central"
+          (click)="ativarOmnitrix()">
+
+          @if(!omnitrixAtivado){
+            <img
+              src="assets/image/simbolo-omnitrix.png"
+              class="simbolo-omnitrix simbolo-inicial"
+              alt="Omnitrix">
+          }
+
+          @if(omnitrixAtivado && alienSelecionado){
+            <img
+              [src]="alienSelecionado.imagemUrl"
+              class="simbolo-omnitrix"
+              [alt]="alienSelecionado.nome">
+          }
+
+        </div>
+
+        <div
+          class="anel-rotativo"
+          [class.inativo]="!omnitrixAtivado"
+          [style.transform]="'rotate(' + anguloAtual + 'deg)'"
+          (mousedown)="onDragStart($event)"
+          (mousemove)="onDragMove($event)"
+          (mouseup)="onDragEnd()"
+          (mouseleave)="onDragEnd()"
+          (touchstart)="onDragStart($event)"
+          (touchmove)="onDragMove($event)"
+          (touchend)="onDragEnd()">
+
+          <div class="anel-externo">
+            <div class="botao topo"></div>
+            <div class="botao direita"></div>
+            <div class="botao baixo"></div>
+            <div class="botao esquerda"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
   </div>
+
 </ion-content>

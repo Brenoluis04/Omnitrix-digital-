@@ -1,27 +1,278 @@
-#container {
-  text-align: center;
+/* CONTAINER PRINCIPAL */
+.container-principal {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 40px 80px;
+  background: radial-gradient(circle, #102410 0%, #050805 100%);
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  &.centralizado {
+    justify-content: center;
+    align-items: center;
+  }
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+/* PAINEL DE INFORMAÇÕES */
+.painel-informacoes {
+  width: 500px;
+  max-height: calc(100vh - 80px);
+  align-self: center;
+  overflow-y: auto;
+  overflow-x: hidden;
+  isolation: isolate;
+  background: rgba(0, 0, 0, 0.85);
+  border: 3px solid #39ff14;
+  border-radius: 25px;
+  padding: 35px 45px 35px 35px;
+  box-sizing: border-box;
+  color: white;
+  scrollbar-width: thin;
+  scrollbar-color: #39ff14 transparent;
+
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #39ff14;
+    border-radius: 4px;
+  }
+
+  h1 {
+    color: #ffffff;
+    font-size: 42px;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
+/* FOTO DO ALIEN */
+.foto-alien {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
 
-  color: #8c8c8c;
+.imagem-real {
+  width: 100%;
+  max-height: 280px;
+  object-fit: contain;
+  border-radius: 16px;
+  filter: drop-shadow(0 0 16px rgba(57, 255, 20, 0.3));
+}
 
+/* INFO BÁSICA */
+.info-basica {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 8px;
+
+  p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #ccc;
+
+    strong {
+      color: #fff;
+    }
+  }
+}
+
+.descricao {
+  margin-top: 20px;
+  line-height: 1.6;
+  font-size: 0.9rem;
+  color: #bbb;
+}
+
+.habilidades {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 25px;
+}
+
+/* SEÇÕES (HISTÓRIA / CURIOSIDADES) */
+.secao {
+  margin-top: 24px;
+  border-top: 1px solid rgba(57, 255, 20, 0.2);
+  padding-top: 16px;
+
+  h3 {
+    color: #39ff14;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 0.88rem;
+    color: #bbb;
+    line-height: 1.6;
+    margin: 0;
+  }
+}
+
+.curiosidades {
+  list-style: none;
+  padding: 0;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  li {
+    font-size: 0.88rem;
+    color: #bbb;
+    padding-left: 16px;
+    position: relative;
+    line-height: 1.5;
+
+    &::before {
+      content: '▸';
+      color: #39ff14;
+      position: absolute;
+      left: 0;
+    }
+  }
 }
 
-#container a {
-  text-decoration: none;
+/* ÁREA DO OMNITRIX */
+.area-omnitrix {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.omnitrix {
+  position: relative;
+  width: 420px;
+  height: 420px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* PULSEIRAS */
+.pulseira {
+  position: absolute;
+  width: 70px;
+  height: 170px;
+  background: linear-gradient(to bottom, #d9d9d9, #8b8b8b);
+  border-radius: 40px;
+  z-index: 0;
+  opacity: 0.95;
+}
+
+.superior-esquerda { top: 10px;    left: 95px;  transform: rotate(-35deg); }
+.superior-direita  { top: 10px;    right: 95px; transform: rotate(35deg);  }
+.inferior-esquerda { bottom: 10px; left: 95px;  transform: rotate(35deg);  }
+.inferior-direita  { bottom: 10px; right: 95px; transform: rotate(-35deg); }
+
+/* ANEL ROTATIVO */
+.anel-rotativo {
+  position: absolute;
+  width: 290px;
+  height: 290px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.1s ease;
+  z-index: 3;
+  cursor: grab;
+
+  &:active {
+    cursor: grabbing;
+    transition: none;
+  }
+
+  &.inativo {
+    cursor: default;
+    pointer-events: none;
+  }
+}
+
+.anel-externo {
+  position: relative;
+  width: 290px;
+  height: 290px;
+  border-radius: 50%;
+  background: radial-gradient(circle, transparent 54%, #000 55%, #111 72%, #000 100%);
+  border: 30px solid #2d2d2d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow:
+    inset 0 0 20px rgba(255, 255, 255, 0.05),
+    0 0 30px rgba(57, 255, 20, 0.4);
+}
+
+/* VISOR CENTRAL */
+.visor-central {
+  position: absolute;
+  width: 187px;
+  height: 187px;
+  border-radius: 50%;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.9);
+}
+
+.simbolo-omnitrix {
+  width: 220px;
+  height: 220px;
+  object-fit: contain;
+  z-index: 2;
+  filter: drop-shadow(0 0 10px #39ff14);
+  animation: brilhoOmnitrix 2s infinite alternate;
+}
+
+/* BOTÕES DO ANEL */
+.botao {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #8eff37, #2d8c00);
+  border: 5px solid #1a1a1a;
+  box-shadow: 0 0 15px #39ff14;
+}
+
+.topo    { top: -30px;    left: 50%; transform: translateX(-50%); }
+.baixo   { bottom: -30px; left: 50%; transform: translateX(-50%); }
+.esquerda{ left: -30px;   top: 50%;  transform: translateY(-50%); }
+.direita { right: -30px;  top: 50%;  transform: translateY(-50%); }
+
+/* ANIMAÇÕES */
+@keyframes brilhoOmnitrix {
+  from { filter: drop-shadow(0 0 10px #39ff14); }
+  to   { filter: drop-shadow(0 0 25px #7fff00); }
+}
+
+.seta-voltar {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  font-size: 48px;
+  color: white;
+  z-index: 999;
+  cursor: pointer;
+  user-select: none;
+  transition: 0.2s ease;
+}
+
+.seta-voltar:hover {
+  transform: scale(1.15);
 }

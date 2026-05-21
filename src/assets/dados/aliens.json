@@ -1,0 +1,383 @@
+[
+  {
+    "id": 1,
+    "nome": "Chama",
+    "planeta": "Pyros",
+    "especie": "Pyronita",
+    "categoria": "Fogo",
+    "habilidades": ["Controle de fogo", "Rajadas flamejantes", "Resistência térmica"],
+    "descricao": "Alienígena feito de magma vivo capaz de manipular calor e fogo.",
+    "historiaRaca": "Os Pyronitas são seres de plasma vivo originários da estrela-planeta Pyros, um astro vulcânico que funciona simultaneamente como planeta e como estrela. Sua civilização é pacífica e diplomática jovens Pyronitas costumam jogar bolas de fogo como esporte enquanto diplomatas discutem alianças com outras raças, como os Kinecelerans. Quando infectado por um resfriado, seus poderes de fogo se invertem e passam a gerar gelo.",
+    "curiosidades": [
+      "Chama foi o primeiro alien que Ben ativou no Omnitrix, acidentalmente",
+      "Pyros é tanto um planeta quanto uma estrela ao mesmo tempo",
+      "Com resfriado, um Pyronita passa a controlar gelo em vez de fogo"
+    ],
+    "fotoRealUrl": "assets/image/Chama.gif",
+    "corPrimaria": "#ff5a00",
+    "corSecundaria": "#ffb347",
+    "imagemUrl": "assets/image/Chama.png"
+  },
+  {
+    "id": 2,
+    "nome": "Besta",
+    "planeta": "Vulpin",
+    "especie": "Vulpimancer",
+    "categoria": "Fera",
+    "habilidades": ["Sentidos aguçados", "Força física", "Rastreamento"],
+    "descricao": "Criatura selvagem sem olhos que percebe o ambiente através de sentidos avançados.",
+    "historiaRaca": "Os Vulpimancers evoluíram no planeta Vulpin, um mundo-lixão onde outras civilizações despejam materiais perigosos. Vivendo em cavernas escuras e tóxicas, a espécie perdeu gradualmente os olhos por não precisar deles, desenvolvendo narinas em forma de guelras no pescoço para 'enxergar' o ambiente via olfato e audição como um sonar 3D. Apesar de parecerem irracionais, possuem o mesmo nível de consciência que humanos — simplesmente escolhem viver como animais selvagens.",
+    "curiosidades": [
+      "Vulpimancers têm sua própria linguagem, mas é impossível de traduzir por tradutores universais",
+      "Ao crescerem, desenvolvem cauda e ficam mais felinos",
+      "Machos adultos têm listras nas costas; fêmeas não"
+    ],
+    "fotoRealUrl": "assets/image/Besta.gif",
+    "corPrimaria": "#d65f00",
+    "corSecundaria": "#ff9933",
+    "imagemUrl": "assets/image/Besta.png"
+  },
+  {
+    "id": 3,
+    "nome": "Diamante",
+    "planeta": "Petropia",
+    "especie": "Petrosapien",
+    "categoria": "Cristal",
+    "habilidades": ["Criação de cristais", "Super resistência", "Lâminas de diamante"],
+    "descricao": "Alienígena cristalino extremamente resistente.",
+    "historiaRaca": "Os Petrosapiens habitavam originalmente cidades subterrâneas abaixo da superfície cristalina de Petropia. Após séculos de guerras internas entre suas diversas raças, um buraco gigante foi rasgado acidentalmente na superfície do planeta, revelando o universo exterior. Com essa descoberta, a civilização se estabilizou e passou a explorar o cosmos. Mais tarde, Vilgax destruiu Petropia Ben Tennyson e o mercenário Tetrax Shard conseguiram restaurar o planeta e sua população.",
+    "curiosidades": [
+      "Diamante foi o único alien além de Enorme a derrotar Vilgax em combate direto",
+      "Os cristais que compõem Petropia e os Petrosapiens produzem oxigênio naturalmente",
+      "São imunes a raios de envelhecimento acelerado por serem feitos de cristal"
+    ],
+    "fotoRealUrl": "assets/image/Diamante.gif",
+    "corPrimaria": "#4deeea",
+    "corSecundaria": "#74f9ff",
+    "imagemUrl": "assets/image/Diamante.png"
+  },
+  {
+    "id": 4,
+    "nome": "XLR8",
+    "planeta": "Kinet",
+    "especie": "Kineceleran",
+    "categoria": "Velocidade",
+    "habilidades": ["Super velocidade", "Reflexos rápidos", "Corrida em paredes"],
+    "descricao": "Alien velocista capaz de atingir velocidades extremas.",
+    "historiaRaca": "Os Kinecelerans são uma raça ágil do planeta Kinet, um mundo constantemente varrido por tempestades elétricas. Sua aparência lembra velociraptors humanoides com cauda e roda na base uma adaptação evolutiva para se mover em terrenos instáveis a altíssimas velocidades. São conhecidos como diplomatas ativos e chegaram a visitar Pyros para discutir alianças com os Pyronitas. Sua velocidade é tão extrema que podem criar tornados girando em torno de um ponto.",
+    "curiosidades": [
+      "XLR8 pode atingir velocidades de até 800 km/h",
+      "A cauda funciona como leme para fazer curvas fechadas em alta velocidade",
+      "Conseguem correr em paredes e tetos sem perder velocidade"
+    ],
+    "fotoRealUrl": "assets/image/XLR8.gif",
+    "corPrimaria": "#0066ff",
+    "corSecundaria": "#66ccff",
+    "imagemUrl": "assets/image/XLR8.png"
+  },
+  {
+    "id": 5,
+    "nome": "Massa Cinzenta",
+    "planeta": "Galvan Prime",
+    "especie": "Galvan",
+    "categoria": "Inteligência",
+    "habilidades": ["Intelecto avançado", "Hackeamento", "Estratégia"],
+    "descricao": "Pequeno alienígena com inteligência extraordinária.",
+    "historiaRaca": "Os Galvans são considerados a raça mais inteligente do universo conhecido, responsáveis pela criação do Omnitrix através de seu líder científico Azmuth. Habitam Galvan Prime e sua lua Galvan B, onde os Mechamorfos (Ultra T) vivem como uma raça simbiótica criada pelos próprios Galvans. Apesar de minúsculos menores que a palma de uma mão sua capacidade cerebral supera qualquer outra espécie, sendo capazes de hackear qualquer tecnologia e desenvolver soluções instantâneas.",
+    "curiosidades": [
+      "Azmuth, o criador do Omnitrix, é um Galvan",
+      "Os Galvans criaram acidentalmente os Mechamorfos ao tentar colonizar sua própria lua",
+      "Conseguem caber em espaços minúsculos graças ao seu tamanho diminuto"
+    ],
+    "fotoRealUrl": "assets/image/Massa-Cinzenta.gif",
+    "corPrimaria": "#66ff66",
+    "corSecundaria": "#ccffcc",
+    "imagemUrl": "assets/image/Massa-Cinzenta.png"
+  },
+  {
+    "id": 6,
+    "nome": "Quatro Braços",
+    "planeta": "Khoros",
+    "especie": "Tetramand",
+    "categoria": "Força",
+    "habilidades": ["Super força", "Saltos gigantes", "Resistência"],
+    "descricao": "Alien musculoso de quatro braços especializado em combate físico.",
+    "historiaRaca": "Os Tetramands são uma raça guerreira do planeta desértico Khoros, um mundo árido que forjou uma cultura baseada em força e combate. Com quatro braços e musculatura colossal, evoluíram para sobreviver em condições extremas. Sua sociedade valoriza poder físico acima de tudo líderes são determinados por força bruta. Apesar da reputação belicosa, Tetramands podem ser aliados leais e protetores implacáveis de quem consideram seus.",
+    "curiosidades": [
+      "Quatro Braços consegue bater as mãos para criar ondas de choque",
+      "É uma das transformações favoritas de Ben para combate direto",
+      "Tetramands podem saltar distâncias enormes apesar do peso colossal"
+    ],
+    "fotoRealUrl": "assets/image/Quatro-Braços.gif",
+    "corPrimaria": "#ff0000",
+    "corSecundaria": "#ff6666",
+    "imagemUrl": "assets/image/Quatro-Braços.png"
+  },
+  {
+    "id": 7,
+    "nome": "Insectoid",
+    "planeta": "Lepidopterra",
+    "especie": "Lepidopterran",
+    "categoria": "Inseto",
+    "habilidades": ["Voo", "Gosma pegajosa", "Visão avançada"],
+    "descricao": "Alien inseto voador com ataques de gosma.",
+    "historiaRaca": "Os Lepidopterrans são seres insectoides do planeta pântano Lepidopterra, um mundo coberto de vegetação densa e águas lamacentas. Evoluíram com quatro asas translúcidas, olhos compostos enormes e a capacidade de secretar gosmas de diferentes propriedades — pegajosa, flamejante ou ofuscante. Sua visão composta permite enxergar em múltiplas direções simultaneamente, tornando-os difíceis de surpreender.",
+    "curiosidades": [
+      "Insectoid consegue voar mesmo carregando pessoas ou objetos pesados",
+      "A gosma pode ser inflamável ou apenas paralisante dependendo do uso",
+      "Seus olhos compostos permitem visão quase 360 graus"
+    ],
+    "fotoRealUrl": "assets/image/Insectoid.gif",
+    "corPrimaria": "#99cc00",
+    "corSecundaria": "#ccff66",
+    "imagemUrl": "assets/image/Insectoid.png"
+  },
+  {
+    "id": 8,
+    "nome": "Aquático",
+    "planeta": "Piscciss",
+    "especie": "Piscciss Volann",
+    "categoria": "Água",
+    "habilidades": ["Natação extrema", "Mandíbula poderosa", "Respiração subaquática"],
+    "descricao": "Alien aquático especializado em ambientes marinhos.",
+    "historiaRaca": "Os Piscciss Volanns habitam o planeta Piscciss, um mundo quase inteiramente coberto por oceanos profundos. Evoluíram como predadores aquáticos de topo de cadeia alimentar, com mandíbulas capazes de morder quase qualquer material e bioluninescência natural. Fora d'água conseguem sobreviver por tempo limitado. O planeta Piscciss em si é mantido unido por um núcleo especial se removido, o planeta se desintegra.",
+    "curiosidades": [
+      "Aquático pode morder através de aço com sua mandíbula",
+      "Possui bioluminescência natural para navegar nas profundezas",
+      "O planeta Piscciss é mantido unido por um cristal especial em seu núcleo"
+    ],
+    "fotoRealUrl": "assets/image/Aquatico.gif",
+    "corPrimaria": "#0033cc",
+    "corSecundaria": "#3399ff",
+    "imagemUrl": "assets/image/Aquatico.png"
+  },
+  {
+    "id": 9,
+    "nome": "Ultra T",
+    "planeta": "Galvan B",
+    "especie": "Galvanic Mechamorph",
+    "categoria": "Tecnologia",
+    "habilidades": ["Fusão tecnológica", "Melhoria de máquinas", "Elasticidade"],
+    "descricao": "Alien tecnológico capaz de se fundir com equipamentos.",
+    "historiaRaca": "Os Mechamorfos são seres tecnológicos vivos que habitam Galvan B, a lua de Galvan Prime. Foram criados acidentalmente pelos Galvans durante uma tentativa de terraformação da luaa tecnologia ganhou vida própria e formou uma nova raça simbiótica. Vivem em simbiose com a tecnologia Galvan e são capazes de se fundir e melhorar qualquer máquina que tocam. Seu corpo é composto de um material orgânico-tecnológico que pode se reformar e se adaptar.",
+    "curiosidades": [
+      "Ultra T é um dos poucos aliens que pode melhorar ativamente outros equipamentos",
+      "Os Mechamorfos foram criados acidentalmente pelos Galvans",
+      "Conseguem atirar raios de plasma de alta energia pelo olho"
+    ],
+    "fotoRealUrl": "assets/image/Ultra-T.gif",
+    "corPrimaria": "#00ff99",
+    "corSecundaria": "#99ffcc",
+    "imagemUrl": "assets/image/Ultra-T.png"
+  },
+  {
+    "id": 10,
+    "nome": "Fantasmatico",
+    "planeta": "Anur Phaetos",
+    "especie": "Ectonurite",
+    "categoria": "Fantasma",
+    "habilidades": ["Invisibilidade", "Intangibilidade", "Possessão"],
+    "descricao": "Alien fantasmagórico capaz de atravessar objetos.",
+    "historiaRaca": "Os Ectonurites habitam Anur Phaetos, um planeta do Sistema Anur região do universo conhecida por abrigar raças de aparência monstruosa. São seres multidimensionais que existem parcialmente fora da dimensão física, o que lhes permite atravessar matéria sólida e tornar-se invisíveis. Seu verdadeiro corpo fica escondido sob a 'capa' exterior quando exposto, o rosto interno tem poderes ainda maiores. São naturalmente avessos à luz intensa, que enfraquece seus poderes.",
+    "curiosidades": [
+      "O verdadeiro corpo de Fantasmático fica escondido dentro da capa exterior",
+      "Luz intensa o enfraquece significativamente",
+      "Ao possuir alguém, mantém acesso a todas as memórias do hospedeiro"
+    ],
+    "fotoRealUrl": "assets/image/Fantasmatico.gif",
+    "corPrimaria": "#cccccc",
+    "corSecundaria": "#ffffff",
+    "imagemUrl": "assets/image/Fantasmatico.png"
+  }
+
+  ,
+{
+  "id": 11,
+  "nome": "Bala de Canhão",
+  "planeta": "Arburia",
+  "especie": "Arburian Pelarota",
+  "categoria": "Impacto",
+  "habilidades": [
+    "Forma de esfera",
+    "Alta velocidade em rolagem",
+    "Ricochete"
+  ],
+  "descricao": "Alien resistente que se enrola numa bola blindada e atinge inimigos em alta velocidade.",
+  "historiaRaca": "Os Arburian Pelarotas eram uma raça pacífica e despreocupada do planeta Arburia, que passavam seus dias jogando e descansando ao sol. Sua habilidade de se enrolar era puramente defensiva como um tatu. Tudo mudou quando 'O Grande', uma entidade parasita, destruiu Arburia por completo uma semana antes de Ben encontrar o Omnitrix. Ben foi um dos primeiros a weaponizar essa habilidade, transformando o que era defesa em ataque.",
+  "curiosidades": [
+    "Arburia foi destruída por 'O Grande' apenas uma semana antes de Ben descobrir essa transformação",
+    "Foi originalmente planejado para ser um dos 10 aliens originais do Omnitrix, mas foi trocado por Diamante",
+    "A casca resiste a ácido, lava e até a queda livre da órbita terrestre sem dano"
+  ],
+  "fotoRealUrl": "assets/image/Bala-de-Canhao.gif",
+  "corPrimaria": "#f5c400",
+  "corSecundaria": "#ffffff",
+  "imagemUrl": "assets/image/Bala-de-Canhao.png"
+}
+
+,
+{
+  "id": 12,
+  "nome": "Gigante",
+  "planeta": "Tempestades Cósmicas",
+  "especie": "To'kustar",
+  "categoria": "Colossal",
+  "habilidades": [
+    "Força colossal",
+    "Raio cósmico",
+    "Resistência extrema"
+  ],
+  "descricao": "Alien gigantesco criado em tempestades cósmicas, capaz de destruir naves inteiras com um soco.",
+  "historiaRaca": "Os To'kustars não nascem em planetas eles são criados dentro de tempestades cósmicas imprevisíveis que ocorrem nas bordas da galáxia. São conhecidos como 'gigantes gentis', vivendo sozinhos guardando silenciosamente as fronteiras do universo contra ameaças externas. Apesar do tamanho aterrador, são seres pacíficos por natureza. Ben usou o Gigante pela primeira vez no filme Segredo do Omnitrix, quando Azmuth desbloqueou o DNA manualmente ao desativar a autodestruição do dispositivo.",
+  "curiosidades": [
+    "Gigante mede aproximadamente 30 metros de altura o maior alien do Omnitrix clássico",
+    "Os To'kustars não têm planeta natal, pois nascem literalmente dentro de tempestades cósmicas",
+    "O nome 'To'kustar' é uma referência ao gênero japonês tokusatsu, do qual Ultraman faz parte"
+  ],
+  "fotoRealUrl": "assets/image/GiganteFoto.png",
+  "corPrimaria": "#cc0000",
+  "corSecundaria": "#ffffff",
+  "imagemUrl": "assets/image/Gigante.png"
+},
+{
+  "id": 13,
+  "nome": "Cipó Selvagem",
+  "planeta": "Flors Verdance",
+  "especie": "Florauna",
+  "categoria": "Planta",
+  "habilidades": [
+    "Extensão de vinhas",
+    "Bombas de sementes",
+    "Fusão com plantas"
+  ],
+  "descricao": "Alien vegetal humanóide capaz de se fundir com a flora ao redor e lançar sementes explosivas.",
+  "historiaRaca": "Os Florauna habitam os planetas Flors Verdance e Xenon, mundos cobertos de florestas densas e selvas tropicais. São seres vegetais humanóides com pernas em forma de vinhas e uma armadilha de vênus ao redor da cabeça. Evoluíram com capacidade de se fundir com qualquer planta ao redor, controlando raízes e galhos à distância. Curiosamente, o DNA do Cipó Selvagem foi adicionado ao Omnitrix por Myaxx sem saber que o doador genético estava possuído por Zs'Skayr, o Alto Lorde Ectonurite.",
+  "curiosidades": [
+    "O DNA do Cipó Selvagem foi desbloqueado acidentalmente por Ben no episódio 'Acampamento do Medo'",
+    "Os frutos nas costas podem ser usados como granadas explosivas ou bombas de fumaça",
+    "Florauna são vulneráveis ao fogo e a temperaturas extremamente baixas"
+  ],
+  "fotoRealUrl": "assets/image/Cipo-Selvagem.gif",
+  "corPrimaria": "#228B22",
+  "corSecundaria": "#90EE90",
+  "imagemUrl": "assets/image/Cipo-Selvagem.png"
+},
+{
+  "id": 14,
+  "nome": "Glutão",
+  "planeta": "Peptos XII",
+  "especie": "Gourmand",
+  "categoria": "Digestão",
+  "habilidades": [
+    "Devorar qualquer material",
+    "Cuspir projéteis explosivos",
+    "Quatro línguas adesivas"
+  ],
+  "descricao": "Alien pequeno mas voraz capaz de engolir e digerir praticamente qualquer substância inorgânica.",
+  "historiaRaca": "Os Gourmands habitam atualmente Peptos XII mas esse já é o décimo segundo planeta que habitam. Cada vez que uma ameaça inimiga se torna grande demais, a rainha ativa o Plano Ômega: todos os Gourmands devoram o próprio planeta por completo, impedindo que ele seja conquistado. Evoluíram em Peptos I, um mundo rico em minerais exóticos, e adaptaram seus corpos para sobreviver consumindo matéria inorgânica. Sua bile é considerada uma das substâncias mais corrosivas do universo conhecido.",
+  "curiosidades": [
+    "Os Gourmands já destruíram e devoraram onze planetas inteiros através do Plano Ômega",
+    "São incapazes de digerir comida humana comum como pizza seu único ponto fraco alimentar",
+    "Glutão foi desbloqueado quando a alienígena Xylene inseriu um código secreto no Omnitrix"
+  ],
+  "fotoRealUrl": "assets/image/GlutaoFoto.png",
+  "corPrimaria": "#4CAF50",
+  "corSecundaria": "#A5D6A7",
+  "imagemUrl": "assets/image/Glutao.png"
+},
+{
+  "id": 15,
+  "nome": "Ben Múmia",
+  "planeta": "Anur Khufos",
+  "especie": "Thep Khufan",
+  "categoria": "Múmia",
+  "habilidades": [
+    "Extensão de bandagens",
+    "Regeneração instantânea",
+    "Divisão do corpo"
+  ],
+  "descricao": "Alien composto de milhares de tendões orgânicos que se parecem com bandagens e podem ser controlados à vontade.",
+  "historiaRaca": "Os Thep Khufans habitam o planeta desértico Anur Khufos, no Sistema Anur a mesma região sombria que abriga os Ectonurites. São criaturas compostas de uma pele fina mas extremamente resistente, semelhante a ataduras antigas, que podem controlar livremente. Vivem em comunidade com outras raças do Sistema Anur, como os Ectonurites e os Transylians. O DNA do Ben Múmia foi desbloqueado acidentalmente quando uma múmia alienígena agarrou o Omnitrix de Ben, ativando o Modo de Captura do dispositivo.",
+  "curiosidades": [
+    "O nome original era Benmummy, renomeado para Snare-Oh na série Omniverse",
+    "Thep Khufans ricos dormem em sarcófagos são símbolo de status na sociedade deles",
+    "Apesar de serem feitos de bandagens, são completamente imunes à água e podem sobreviver no vácuo do espaço"
+  ],
+  "fotoRealUrl": "assets/image/Ben-Mumia.gif",
+  "corPrimaria": "#D4AF37",
+  "corSecundaria": "#F5DEB3",
+  "imagemUrl": "assets/image/Ben-Mumia.png"
+},
+{
+  "id": 16,
+  "nome": "Frankenstrike",
+  "planeta": "Anur Transyl",
+  "especie": "Transylian",
+  "categoria": "Elétrico",
+  "habilidades": [
+    "Descargas elétricas",
+    "Super força",
+    "Aderência magnética"
+  ],
+  "descricao": "Alien inspirado no monstro de Frankenstein com bobinas geradoras nas costas que produzem eletricidade poderosa.",
+  "historiaRaca": "Os Transylians habitam Anur Transyl, um planeta de tempestades elétricas constantes. No passado, foram escravizados pelos Vladats vampiros alienígenas que os usavam como fonte de alimentação. Os Transylians se rebelaram em segredo, desenvolvendo tecnologia superior e usando a energia de Pyronitas capturados para incinerá-los até a extinção. Após se livrarem dos Vladats, foram posteriormente escravizados pelos Ectonurites. Seu DNA foi desbloqueado quando o Dr. Viktor, servo de Zs'Skayr, agarrou o braço de Ben ativando o Modo de Captura.",
+  "curiosidades": [
+    "Frankenstrike era originalmente chamado de Benvicktor, em referência ao Dr. Viktor",
+    "As bobinas nas costas são crescimentos metálico-orgânicos naturais, não equipamentos",
+    "Ben renomeou Benvicktor para Frankenstrike quando tinha 11 anos"
+  ],
+  "fotoRealUrl": "assets/image/FrankenStrikeFoto.png",
+  "corPrimaria": "#607D8B",
+  "corSecundaria": "#B0BEC5",
+  "imagemUrl": "assets/image/FrankenStrike.png"
+}
+
+,
+{
+  "id": 17,
+  "nome": "Lobisben",
+  "planeta": "Luna Lobo",
+  "especie": "Loboan",
+  "categoria": "Lobisomem",
+  "habilidades": [
+    "Uivo ultrassônico",
+    "Garras afiadas",
+    "Sentidos apurados"
+  ],
+  "descricao": "Alien lobisomem com mandíbula de quatro articulações capaz de emitir uivos ultrassônicos devastadores.",
+  "historiaRaca": "Os Loboans habitam Luna Lobo, a lua do planeta Anur Transyl, coberta por densas florestas. Vivem em matilhas e os mais selvagens são os lobos solitários. Alguns Loboans mais civilizados vivem nas cidades de Anur Transyl ao lado de outras raças do sistema. O DNA do Lobisben foi adicionado ao Omnitrix de forma acidental um Loboan selvagem arranhando o dispositivo durante uma batalha, ativando o Modo de Captura e desbloqueando a transformação lentamente ao longo de horas em vez de segundos, como normalmente acontece.",
+  "curiosidades": [
+    "Lobisben era originalmente chamado Benwolf Ben renomeou para Blitzwolfer ao se envergonhar na frente de Kai Green",
+    "Foi o primeiro alien do Omnitrix cujo DNA foi adicionado por contato físico acidental, não por Azmuth",
+    "O uivo ultrassônico de um Loboan é considerado mais poderoso que o grito sônico de um Sonorosian"
+  ],
+  "fotoRealUrl": "assets/image/Lobisben.gif",
+  "corPrimaria": "#78909C",
+  "corSecundaria": "#CFD8DC",
+  "imagemUrl": "assets/image/Lobisben.png"
+}
+,
+{
+  "id": 18,
+  "nome": "Idem",
+  "planeta": "Hathor",
+  "especie": "Splixson",
+  "categoria": "Clonagem",
+  "habilidades": [
+    "Auto-duplicação ilimitada",
+    "Rede sensorial entre clones",
+    "Escavar underground"
+  ],
+  "descricao": "Alien pequeno capaz de se duplicar infinitamente, com cada clone operando de forma independente.",
+  "historiaRaca": "Os Splixsons habitam Hathor, um planeta parecido com a Terra que possui 12 continentes e nenhuma lua. São criaturas pacíficas que trabalham como agricultores ou artistas. Desenvolveram sua habilidade de duplicação como mecanismo de defesa evolutivo sendo presas fáceis na cadeia alimentar de Hathor, aprenderam a compensar sua fraqueza individual com números. Seus nódulos sensoriais criam uma rede entre os clones, permitindo que compartilhem sentidos e sensações físicas, incluindo dor.",
+  "curiosidades": [
+    "Idem foi desbloqueado acidentalmente por Ben quando tentava se transformar em Insectoid",
+    "Na série original, se um clone morria todos os outros morriam junto isso mudou em Omniverse",
+    "O predador natural dos Splixsons é o Panuncian, que também possui habilidade de duplicação ilimitada"
+  ],
+  "fotoRealUrl": "assets/image/IdemFoto.png",
+  "corPrimaria": "#FFFFFF",
+  "corSecundaria": "#B0BEC5",
+  "imagemUrl": "assets/image/Idem.png"
+}
+]
